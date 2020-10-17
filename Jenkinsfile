@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         PROJECT_ID = 'project-1-276907'
-        CLUSTER_NAME = 'wp-cluster'
+        CLUSTER_NAME = 'test-jenkins'
         LOCATION = 'asia-southeast1'
         CREDENTIALS_ID = 'gke'
     }
